@@ -1,0 +1,15 @@
+#Import the required packages
+import numpy as np
+import pandas as pd
+import datetime
+
+import matplotlib.pyplot as plt
+import seaborn as sns
+sns.set()
+
+
+from statsmodels.tsa.seasonal import seasonal_decompose
+from statsmodels.tsa.stattools import adfuller
+from distfit import distfit
+import yfinance as yf
+import pmdarima as pm
